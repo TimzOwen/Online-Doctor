@@ -6,7 +6,6 @@ import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
@@ -66,5 +65,9 @@ class GroupTherapyActivity : AppCompatActivity(), GroupTherapyAdapter.OnItemClic
         val zoomIntent = Intent(Intent.ACTION_VIEW,
         Uri.parse("https://us02web.zoom.us/meeting/83395241499?occurrence=1653498000000"))
         startActivity(zoomIntent)
+    }
+
+    fun getUserAccount(){
+        // REST API
     }
 }
