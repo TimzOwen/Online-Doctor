@@ -11,7 +11,7 @@ iDoctor also has a reminder which will come in handy to remind the user of the c
 ---------------
 ### `Getting Started`
 
-1. Clone the project iDoctor : git clone https://github.com/TimzOwen/iDoctor.git
+1. Clone the project iDoctor : git clone https://github.com/TimzOwen/Online-Doctor.git
 2. Open with Android Studio
 3. Run The Application
 
